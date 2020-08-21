@@ -10,6 +10,12 @@ health = 10
 if age >= 18:
     print("You are old enough to play!")
 
+    weapon = input("pick a weapon (sword/baton/taser):")
+
+    if weapon == sword:
+        health = 15
+
+
     wants_to_play = input("Do you want to play? ")
     if wants_to_play == "yes":
         print("Let's play!")
